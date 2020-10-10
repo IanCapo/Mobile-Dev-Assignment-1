@@ -4,16 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../green_traffic_lights-512.png">
   <!-- Bootstrap 4 CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <title>Assignment 1 - FP</title>
+  <link rel="stylesheet" href="../style.css">
+  <title>fearNoTraffic</title>
 </head>
 
 <body>
   <!--Navigaiton-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><img src="../green_traffic_lights-512.png" width="25px"> fearNoTraffic</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,17 +29,55 @@
           <a class="nav-link" href="#">Personas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Wireframes</a>
+          <a class="nav-link" href="./wireframes.html">Wireframes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Competition</a>
+          <a class="nav-link" href="./competition.html">Competition</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Technology</a>
+          <a class="nav-link" href="./technology.html">Technology</a>
         </li>
       </ul>
     </div>
   </nav>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">About</li>
+    </ol>
+  </nav>
+
+  <div class="container pt-4 pb-4">
+    <div class="row">
+      <div class="col-12">
+        <h1>fearNoTraffic<br>
+          <small class="text-muted">Don’t waste time checking traffic, let us do it for you</small>
+        </h1>
+
+        <h2 class="pt-3">Problem Statement</h2>
+        <p>Traffic, especially in urban areas, has become unpredictable. Commuting times vary which makes it hard for people to
+        estimate when to leave for work or for an appointment. They either wake up really early just to realise they could have
+        spent another 15 minutes soundly asleep or sleep too long and in turn arrive late.</p>
+
+        <h2 class="pt-3">Goal of the App</h2>
+        <p>This app will ensure that users wake up in the nick of time and never be late again. The app monitors traffic conditions
+        for the users way to work, or other trips, and sets an alarm taking into consideration the time the user needs for the
+        commute and also the time they need to get ready to leave. The user can define the destination, start point (or use
+        geolocation), the time to get ready and frequency of the alarm (e.g. Monday-Friday start work at 9am).</p>
+      </div>
+    </div>
+  </div>
+
+  <Footer class="container bg-dark text-white pt-3 pb-3">
+    <div class="row">
+      <div class="col-12">
+        <a class="text-warning" href="https://www.herts.ac.uk/"> <small>University of Hertfordshire</small></a><br>
+        <small>BSc(hons) Information Technology</small><br>
+        <small>Level 6 - Module: Mobile Development</small>
+        <small>Assignment 1</small>
+        <small>Fabian Pasin</small>
+      </div>
+    </div>
+  </Footer>
 
   <!-- scripts required for Bootstrap 4-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
