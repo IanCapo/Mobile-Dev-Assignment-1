@@ -47,7 +47,30 @@ p {
   border-bottom: 10px solid #fff;
 }
 
+.carousel-indicators li.active {
+  background: #ffc107;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: no-repeat;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(./public/images/arrow-left.png);
+}
+
+.carousel-control-next-icon {
+  background-image: url(./public/images/arrow-right.png);
+}
+
 .list-group-item {
   font-size:.9em;
   padding: .75rem .8rem;
+}
+
+.list-group-item.active {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #343a40;
 }
