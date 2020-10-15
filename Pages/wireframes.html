@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../public/images/green_traffic_lights-512.png">
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css">
+  <title>fearNoTraffic</title>
+</head>
+
+<body>
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="../public/images/green_traffic_lights-512.png" width="25px">
+      fearNoTraffic</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./personas.html">Proto-Personas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./wireframes.html">Wireframes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./competition.html">Competition</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./technology.html">Technology</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- breadcrumbs -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">About</li>
+    </ol>
+  </nav>
+
+  <!-- thumbnails -->
+  <div class="container pt-4 pb-4">
+    <div class="row">
+      <div class="col-12">
+        <h1>Selected Wireframes</h1>
+        <p>On this page we will introduce a first idea of how we picuture the application.</p>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-4">
+        <img class="w-100 shadow-lg" src="../public/images/Wireframes/02_Home.png" alt="" data-toggle="modal" data-target="#frameOne">
+      </div>
+        <div class="col-4">
+          <img class="w-100 shadow-lg" src="../public/images/Wireframes/01_ Home-onboarding.png" alt="" data-toggle="modal" data-target="#frameTwo">
+        </div>
+        <div class="col-4">
+          <img class="w-100 shadow-lg" src="../public/images/Wireframes/05_Add_alarm-form.png" alt="" data-toggle="modal" data-target="#frameThree">
+        </div>
+    </div>
+        <div class="row mt-4">
+          <div class="col-4">
+            <img class="w-100 shadow-lg" src="../public/images/Wireframes/03_Home_with-alarms.png" alt="" data-toggle="modal"
+              data-target="#frameFour">
+          </div>
+          <div class="col-4">
+            <img class="w-100 shadow-lg" src="../public/images/Wireframes/07_Settings.png" alt="" data-toggle="modal"
+              data-target="#frameFive">
+          </div>
+          <div class="col-4">
+            <img class="w-100 shadow-lg" src="../public/images/Wireframes/08_Alarm-rings.png" alt="" data-toggle="modal"
+              data-target="#frameSix">
+          </div>
+        </div>
+
+  </div>
+
+
+  <!-- Modals -->
+  <!-- frame 1-->
+  <div class="modal fade" id="frameOne" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Home Screen</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body row justify-content-center">
+          <img class="w-50 shadow" src="../public/images/Wireframes/02_Home.png" alt="">
+        </div>
+        <div class="modal-footer">
+          <p>When the user opens the app he finds himself on the home or main page, from here the user can add new alarm, switch to the settings tab and disable or enable the geolocation.</p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- frame 2-->
+    <div class="modal fade" id="frameTwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Home Screen - Onboarding</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body row justify-content-center">
+            <img class="w-50 shadow" src="../public/images/Wireframes/01_ Home-onboarding.png" alt="">
+          </div>
+          <div class="modal-footer">
+            <p>When the user opens the app for the first time he finds himself on the main page with guiding tooltips that explain how to use the app.</p>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- frame 3-->
+        <div class="modal fade" id="frameThree" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add an alam - form</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            <div class="modal-body row justify-content-center">
+              <img class="w-50 shadow" src="../public/images/Wireframes/05_Add_alarm-form.png" alt="">
+            </div>
+            <div class="modal-footer">
+              <p>The user fills out the form to add an alarm by filling out the fields in the form. Besides start point and destination the user needs to specify time of arrival, time to get ready and whether it is a repeated alarm.</p>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+          </div>
+        </div>
+            <!-- frame 4-->
+            <div class="modal fade" id="frameFour" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Home Screen - Overview Alarms</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                <div class="modal-body row justify-content-center">
+                  <img class="w-50 shadow" src="../public/images/Wireframes/03_Home_with-alarms.png" alt="">
+                </div>
+                <div class="modal-footer">
+                  <p>Once an alarm is created it appears on the main page, here the user can activate or deactivate, delete or rename the alarm.</p>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <!-- frame 5-->
+            <div class="modal fade" id="frameFive" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Settings</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                <div class="modal-body row justify-content-center">
+                  <img class="w-50 shadow" src="../public/images/Wireframes/07_Settings.png" alt="">
+                </div>
+                <div class="modal-footer">
+                  <p>On the settings screen the user can set preferences such as the way the alarm is turned off, snooze time, different alarm sounds.</p>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- frame 6-->
+            <div class="modal fade" id="frameSix" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Alarm rings</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                <div class="modal-body row justify-content-center">
+                  <img class="w-50 shadow" src="../public/images/Wireframes/02_Home.png" alt="">
+                </div>
+                <div class="modal-footer">
+                  <p>When the alarm rings the app is pushed into foreground, the user disables it in his or her prefered way or snoozes it.</p>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+              </div>
+            </div>
+
+  <Footer class="container bg-dark text-white pt-3 pb-3">
+    <div class="row">
+      <div class="col-12">
+        <a class="text-warning" href="https://www.herts.ac.uk/"> <small>University of Hertfordshire</small></a><br>
+        <small>BSc(hons) Information Technology</small><br>
+        <small>Level 6 - Module: Mobile Development</small>
+        <small>Assignment 1</small>
+        <small>Fabian Pasin</small>
+      </div>
+    </div>
+  </Footer>
+
+  <!-- scripts required for Bootstrap 4-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
