@@ -10,9 +10,67 @@ p {
   font-size: 1.2em;
 }
 
+.w-60 {
+  width: 60%;
+}
+
 .media-image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.carousel-item {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-item.active > .item-description {
+  margin-top: 20px;
+}
+
+.carousel-indicators {
+  margin-top: 0px;
+  position: relative;
+}
+
+.carousel-indicators li {
+  background: #343a40;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+}
+
+.carousel-indicators li.active {
+  background: #ffc107;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: no-repeat;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(./public/images/arrow-left.png);
+}
+
+.carousel-control-next-icon {
+  background-image: url(./public/images/arrow-right.png);
+}
+
+.list-group-item {
+  font-size:.9em;
+  padding: .75rem .8rem;
+}
+
+.list-group-item.active {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #343a40;
 }
