@@ -43,8 +43,7 @@ p {
 
 .carousel-indicators li {
   background: #343a40;
-  border-top: 10px solid #fff;
-  border-bottom: 10px solid #fff;
+  margin-top: 10px;
 }
 
 .carousel-indicators li.active {
@@ -74,6 +73,7 @@ p {
   border-color: #ffc107;
   color: #343a40;
 }
+
 
 @media only screen and (max-width: 359px) {
   .list-group-horizontal {
