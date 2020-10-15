@@ -74,3 +74,9 @@ p {
   border-color: #ffc107;
   color: #343a40;
 }
+
+@media only screen and (max-width: 359px) {
+  .list-group-horizontal {
+    flex-wrap: wrap;
+  }
+}
