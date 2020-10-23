@@ -4,7 +4,7 @@ This project is a design document, optimised for mobile view, to introduce the f
  ---
  I have built a static website consisting of 7 interconnected html files, static assets like images and a CSS file.
 
- I have uttilised components if the bootstrap framework and added a few custom styles in the style.css file
+ I have uttilised components of the bootstrap framework and added a few custom styles in the style.css file
 
  ## To wiew the website
 > Download or clone the repository
