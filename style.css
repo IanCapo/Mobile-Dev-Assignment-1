@@ -63,20 +63,25 @@ p {
   background-image: url(./public/images/arrow-right.png);
 }
 
+.list-group-horizontal {
+  width: 100%;
+}
+
 .list-group-item {
-  font-size:.9em;
-  padding: .75rem .8rem;
+  font-size: 1.2em;
+  width: 100%;
+  text-align: center;
+  color: #343a40;
+  font-weight: 600;
 }
 
 .list-group-item.active {
   background-color: #ffc107;
   border-color: #ffc107;
-  color: #343a40;
+  color: #fff;
+  text-decoration: none;
 }
 
-
-@media only screen and (max-width: 359px) {
-  .list-group-horizontal {
-    flex-wrap: wrap;
-  }
-}
+ .accordion {
+   border: 2px solid red;
+ }
