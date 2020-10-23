@@ -17,4 +17,10 @@ This project is a design document, optimised for mobile view, to introduce the f
 
 > Choose any smartphone to display in mobile view
 
+## Github Repository
+
+Click: [ianCapo, Mobile-Dev-Assignment-1](https://github.com/IanCapo/Mobile-Dev-Assignment-1)
+
+or visit: https://github.com/IanCapo/Mobile-Dev-Assignment-1
+
 
